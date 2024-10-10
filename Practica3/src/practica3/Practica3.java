@@ -16,7 +16,10 @@ public class Practica3 {
         String Cad;
         System.out.println("Introduce una cadena de texto: ");
         Cad = captu.nextLine();
-        System.out.println();
+        
+        for(int i = 0; i <= Cad.length(); i++){
+            System.out.println(Cad.charAt(i));
+        }
     }
     
 }
